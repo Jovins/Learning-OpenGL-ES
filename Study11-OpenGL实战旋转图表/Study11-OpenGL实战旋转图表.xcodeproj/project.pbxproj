@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9E1955D1D88242600C2F62C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E1955C1D88242600C2F62C /* main.m */; };
+		B9E195601D88242600C2F62C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E1955F1D88242600C2F62C /* AppDelegate.m */; };
+		B9E195631D88242600C2F62C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E195621D88242600C2F62C /* ViewController.m */; };
+		B9E195661D88242600C2F62C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E195641D88242600C2F62C /* Main.storyboard */; };
+		B9E195681D88242600C2F62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E195671D88242600C2F62C /* Assets.xcassets */; };
+		B9E1956B1D88242600C2F62C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E195691D88242600C2F62C /* LaunchScreen.storyboard */; };
+		B9E195761D88242600C2F62C /* Study11_OpenGL______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E195751D88242600C2F62C /* Study11_OpenGL______Tests.m */; };
+		B9E195811D88242600C2F62C /* Study11_OpenGL______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E195801D88242600C2F62C /* Study11_OpenGL______UITests.m */; };
+		B9E195921D8824CF00C2F62C /* JWCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E195911D8824CF00C2F62C /* JWCaptureView.m */; };
+		B9E195951D88321400C2F62C /* JWCube.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E195941D88321400C2F62C /* JWCube.m */; };
+		B9E195981D8832C100C2F62C /* JWPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E195971D8832C100C2F62C /* JWPosition.m */; };
+		B9E1959B1D8851A300C2F62C /* JWChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E1959A1D8851A300C2F62C /* JWChartViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9E195721D88242600C2F62C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E195501D88242500C2F62C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E195571D88242500C2F62C;
+			remoteInfo = "Study11-OpenGL实战旋转图表";
+		};
+		B9E1957D1D88242600C2F62C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E195501D88242500C2F62C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E195571D88242500C2F62C;
+			remoteInfo = "Study11-OpenGL实战旋转图表";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9E195581D88242500C2F62C /* Study11-OpenGL实战旋转图表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study11-OpenGL实战旋转图表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E1955C1D88242600C2F62C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9E1955E1D88242600C2F62C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9E1955F1D88242600C2F62C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9E195611D88242600C2F62C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9E195621D88242600C2F62C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9E195651D88242600C2F62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9E195671D88242600C2F62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9E1956A1D88242600C2F62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9E1956C1D88242600C2F62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E195711D88242600C2F62C /* Study11-OpenGL实战旋转图表Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study11-OpenGL实战旋转图表Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E195751D88242600C2F62C /* Study11_OpenGL______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Study11_OpenGL______Tests.m"; sourceTree = "<group>"; };
+		B9E195771D88242600C2F62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E1957C1D88242600C2F62C /* Study11-OpenGL实战旋转图表UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study11-OpenGL实战旋转图表UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E195801D88242600C2F62C /* Study11_OpenGL______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Study11_OpenGL______UITests.m"; sourceTree = "<group>"; };
+		B9E195821D88242600C2F62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E195901D8824CF00C2F62C /* JWCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCaptureView.h; sourceTree = "<group>"; };
+		B9E195911D8824CF00C2F62C /* JWCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCaptureView.m; sourceTree = "<group>"; };
+		B9E195931D88321400C2F62C /* JWCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCube.h; sourceTree = "<group>"; };
+		B9E195941D88321400C2F62C /* JWCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCube.m; sourceTree = "<group>"; };
+		B9E195961D8832C100C2F62C /* JWPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPosition.h; sourceTree = "<group>"; };
+		B9E195971D8832C100C2F62C /* JWPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPosition.m; sourceTree = "<group>"; };
+		B9E195991D8851A300C2F62C /* JWChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWChartViewController.h; sourceTree = "<group>"; };
+		B9E1959A1D8851A300C2F62C /* JWChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWChartViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9E195551D88242500C2F62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E1956E1D88242600C2F62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E195791D88242600C2F62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9E1954F1D88242500C2F62C = {
+			isa = PBXGroup;
+			children = (
+				B9E1955A1D88242600C2F62C /* Study11-OpenGL实战旋转图表 */,
+				B9E195741D88242600C2F62C /* Study11-OpenGL实战旋转图表Tests */,
+				B9E1957F1D88242600C2F62C /* Study11-OpenGL实战旋转图表UITests */,
+				B9E195591D88242500C2F62C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E195591D88242500C2F62C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9E195581D88242500C2F62C /* Study11-OpenGL实战旋转图表.app */,
+				B9E195711D88242600C2F62C /* Study11-OpenGL实战旋转图表Tests.xctest */,
+				B9E1957C1D88242600C2F62C /* Study11-OpenGL实战旋转图表UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E1955A1D88242600C2F62C /* Study11-OpenGL实战旋转图表 */ = {
+			isa = PBXGroup;
+			children = (
+				B9E1958E1D88242A00C2F62C /* Capture */,
+				B9E1958F1D88243500C2F62C /* Chart */,
+				B9E1955E1D88242600C2F62C /* AppDelegate.h */,
+				B9E1955F1D88242600C2F62C /* AppDelegate.m */,
+				B9E195611D88242600C2F62C /* ViewController.h */,
+				B9E195621D88242600C2F62C /* ViewController.m */,
+				B9E195641D88242600C2F62C /* Main.storyboard */,
+				B9E195671D88242600C2F62C /* Assets.xcassets */,
+				B9E195691D88242600C2F62C /* LaunchScreen.storyboard */,
+				B9E1956C1D88242600C2F62C /* Info.plist */,
+				B9E1955B1D88242600C2F62C /* Supporting Files */,
+			);
+			path = "Study11-OpenGL实战旋转图表";
+			sourceTree = "<group>";
+		};
+		B9E1955B1D88242600C2F62C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9E1955C1D88242600C2F62C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9E195741D88242600C2F62C /* Study11-OpenGL实战旋转图表Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E195751D88242600C2F62C /* Study11_OpenGL______Tests.m */,
+				B9E195771D88242600C2F62C /* Info.plist */,
+			);
+			path = "Study11-OpenGL实战旋转图表Tests";
+			sourceTree = "<group>";
+		};
+		B9E1957F1D88242600C2F62C /* Study11-OpenGL实战旋转图表UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E195801D88242600C2F62C /* Study11_OpenGL______UITests.m */,
+				B9E195821D88242600C2F62C /* Info.plist */,
+			);
+			path = "Study11-OpenGL实战旋转图表UITests";
+			sourceTree = "<group>";
+		};
+		B9E1958E1D88242A00C2F62C /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				B9E195901D8824CF00C2F62C /* JWCaptureView.h */,
+				B9E195911D8824CF00C2F62C /* JWCaptureView.m */,
+			);
+			name = Capture;
+			sourceTree = "<group>";
+		};
+		B9E1958F1D88243500C2F62C /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				B9E195931D88321400C2F62C /* JWCube.h */,
+				B9E195941D88321400C2F62C /* JWCube.m */,
+				B9E195961D8832C100C2F62C /* JWPosition.h */,
+				B9E195971D8832C100C2F62C /* JWPosition.m */,
+				B9E195991D8851A300C2F62C /* JWChartViewController.h */,
+				B9E1959A1D8851A300C2F62C /* JWChartViewController.m */,
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9E195571D88242500C2F62C /* Study11-OpenGL实战旋转图表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E195851D88242600C2F62C /* Build configuration list for PBXNativeTarget "Study11-OpenGL实战旋转图表" */;
+			buildPhases = (
+				B9E195541D88242500C2F62C /* Sources */,
+				B9E195551D88242500C2F62C /* Frameworks */,
+				B9E195561D88242500C2F62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Study11-OpenGL实战旋转图表";
+			productName = "Study11-OpenGL实战旋转图表";
+			productReference = B9E195581D88242500C2F62C /* Study11-OpenGL实战旋转图表.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9E195701D88242600C2F62C /* Study11-OpenGL实战旋转图表Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E195881D88242600C2F62C /* Build configuration list for PBXNativeTarget "Study11-OpenGL实战旋转图表Tests" */;
+			buildPhases = (
+				B9E1956D1D88242600C2F62C /* Sources */,
+				B9E1956E1D88242600C2F62C /* Frameworks */,
+				B9E1956F1D88242600C2F62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E195731D88242600C2F62C /* PBXTargetDependency */,
+			);
+			name = "Study11-OpenGL实战旋转图表Tests";
+			productName = "Study11-OpenGL实战旋转图表Tests";
+			productReference = B9E195711D88242600C2F62C /* Study11-OpenGL实战旋转图表Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9E1957B1D88242600C2F62C /* Study11-OpenGL实战旋转图表UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E1958B1D88242600C2F62C /* Build configuration list for PBXNativeTarget "Study11-OpenGL实战旋转图表UITests" */;
+			buildPhases = (
+				B9E195781D88242600C2F62C /* Sources */,
+				B9E195791D88242600C2F62C /* Frameworks */,
+				B9E1957A1D88242600C2F62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E1957E1D88242600C2F62C /* PBXTargetDependency */,
+			);
+			name = "Study11-OpenGL实战旋转图表UITests";
+			productName = "Study11-OpenGL实战旋转图表UITests";
+			productReference = B9E1957C1D88242600C2F62C /* Study11-OpenGL实战旋转图表UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9E195501D88242500C2F62C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = evenCoder;
+				TargetAttributes = {
+					B9E195571D88242500C2F62C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B9E195701D88242600C2F62C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B9E195571D88242500C2F62C;
+					};
+					B9E1957B1D88242600C2F62C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B9E195571D88242500C2F62C;
+					};
+				};
+			};
+			buildConfigurationList = B9E195531D88242500C2F62C /* Build configuration list for PBXProject "Study11-OpenGL实战旋转图表" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9E1954F1D88242500C2F62C;
+			productRefGroup = B9E195591D88242500C2F62C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9E195571D88242500C2F62C /* Study11-OpenGL实战旋转图表 */,
+				B9E195701D88242600C2F62C /* Study11-OpenGL实战旋转图表Tests */,
+				B9E1957B1D88242600C2F62C /* Study11-OpenGL实战旋转图表UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9E195561D88242500C2F62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E1956B1D88242600C2F62C /* LaunchScreen.storyboard in Resources */,
+				B9E195681D88242600C2F62C /* Assets.xcassets in Resources */,
+				B9E195661D88242600C2F62C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E1956F1D88242600C2F62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E1957A1D88242600C2F62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9E195541D88242500C2F62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E195631D88242600C2F62C /* ViewController.m in Sources */,
+				B9E195601D88242600C2F62C /* AppDelegate.m in Sources */,
+				B9E195951D88321400C2F62C /* JWCube.m in Sources */,
+				B9E1959B1D8851A300C2F62C /* JWChartViewController.m in Sources */,
+				B9E195921D8824CF00C2F62C /* JWCaptureView.m in Sources */,
+				B9E1955D1D88242600C2F62C /* main.m in Sources */,
+				B9E195981D8832C100C2F62C /* JWPosition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E1956D1D88242600C2F62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E195761D88242600C2F62C /* Study11_OpenGL______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E195781D88242600C2F62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E195811D88242600C2F62C /* Study11_OpenGL______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9E195731D88242600C2F62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E195571D88242500C2F62C /* Study11-OpenGL实战旋转图表 */;
+			targetProxy = B9E195721D88242600C2F62C /* PBXContainerItemProxy */;
+		};
+		B9E1957E1D88242600C2F62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E195571D88242500C2F62C /* Study11-OpenGL实战旋转图表 */;
+			targetProxy = B9E1957D1D88242600C2F62C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9E195641D88242600C2F62C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E195651D88242600C2F62C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9E195691D88242600C2F62C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E1956A1D88242600C2F62C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9E195831D88242600C2F62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9E195841D88242600C2F62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9E195861D88242600C2F62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Study11-OpenGL实战旋转图表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study11-OpenGL------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9E195871D88242600C2F62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Study11-OpenGL实战旋转图表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study11-OpenGL------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9E195891D88242600C2F62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Study11-OpenGL实战旋转图表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study11-OpenGL------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study11-OpenGL实战旋转图表.app/Study11-OpenGL实战旋转图表";
+			};
+			name = Debug;
+		};
+		B9E1958A1D88242600C2F62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Study11-OpenGL实战旋转图表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study11-OpenGL------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study11-OpenGL实战旋转图表.app/Study11-OpenGL实战旋转图表";
+			};
+			name = Release;
+		};
+		B9E1958C1D88242600C2F62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Study11-OpenGL实战旋转图表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study11-OpenGL------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Study11-OpenGL实战旋转图表";
+			};
+			name = Debug;
+		};
+		B9E1958D1D88242600C2F62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Study11-OpenGL实战旋转图表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study11-OpenGL------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Study11-OpenGL实战旋转图表";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9E195531D88242500C2F62C /* Build configuration list for PBXProject "Study11-OpenGL实战旋转图表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E195831D88242600C2F62C /* Debug */,
+				B9E195841D88242600C2F62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E195851D88242600C2F62C /* Build configuration list for PBXNativeTarget "Study11-OpenGL实战旋转图表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E195861D88242600C2F62C /* Debug */,
+				B9E195871D88242600C2F62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E195881D88242600C2F62C /* Build configuration list for PBXNativeTarget "Study11-OpenGL实战旋转图表Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E195891D88242600C2F62C /* Debug */,
+				B9E1958A1D88242600C2F62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E1958B1D88242600C2F62C /* Build configuration list for PBXNativeTarget "Study11-OpenGL实战旋转图表UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E1958C1D88242600C2F62C /* Debug */,
+				B9E1958D1D88242600C2F62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9E195501D88242500C2F62C /* Project object */;
+}

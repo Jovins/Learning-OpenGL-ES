@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9C1F5FD1D8199F300F6BEEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F5FC1D8199F300F6BEEE /* main.m */; };
+		B9C1F6001D8199F300F6BEEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F5FF1D8199F300F6BEEE /* AppDelegate.m */; };
+		B9C1F6061D8199F300F6BEEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C1F6041D8199F300F6BEEE /* Main.storyboard */; };
+		B9C1F6081D8199F300F6BEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C1F6071D8199F300F6BEEE /* Assets.xcassets */; };
+		B9C1F60B1D8199F300F6BEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C1F6091D8199F300F6BEEE /* LaunchScreen.storyboard */; };
+		B9C1F6161D8199F300F6BEEE /* Study03_OpenGL_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F6151D8199F300F6BEEE /* Study03_OpenGL_____Tests.m */; };
+		B9C1F6211D8199F300F6BEEE /* Study03_OpenGL_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F6201D8199F300F6BEEE /* Study03_OpenGL_____UITests.m */; };
+		B9C1F6301D819A3800F6BEEE /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F62F1D819A3800F6BEEE /* GLViewController.m */; };
+		B9C1F6331D81A38100F6BEEE /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B9C1F6321D81A38100F6BEEE /* Shader.vsh */; };
+		B9C1F6351D81A6C700F6BEEE /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B9C1F6341D81A6C700F6BEEE /* Shader.fsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9C1F6121D8199F300F6BEEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C1F5F01D8199F300F6BEEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C1F5F71D8199F300F6BEEE;
+			remoteInfo = "Study03-OpenGL变化三角形";
+		};
+		B9C1F61D1D8199F300F6BEEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C1F5F01D8199F300F6BEEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C1F5F71D8199F300F6BEEE;
+			remoteInfo = "Study03-OpenGL变化三角形";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9C1F5F81D8199F300F6BEEE /* Study03-OpenGL变化三角形.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study03-OpenGL变化三角形.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C1F5FC1D8199F300F6BEEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9C1F5FE1D8199F300F6BEEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9C1F5FF1D8199F300F6BEEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9C1F6051D8199F300F6BEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9C1F6071D8199F300F6BEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9C1F60A1D8199F300F6BEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9C1F60C1D8199F300F6BEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C1F6111D8199F300F6BEEE /* Study03-OpenGL变化三角形Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study03-OpenGL变化三角形Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C1F6151D8199F300F6BEEE /* Study03_OpenGL_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Study03_OpenGL_____Tests.m"; sourceTree = "<group>"; };
+		B9C1F6171D8199F300F6BEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C1F61C1D8199F300F6BEEE /* Study03-OpenGL变化三角形UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study03-OpenGL变化三角形UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C1F6201D8199F300F6BEEE /* Study03_OpenGL_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Study03_OpenGL_____UITests.m"; sourceTree = "<group>"; };
+		B9C1F6221D8199F300F6BEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C1F62E1D819A3800F6BEEE /* GLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
+		B9C1F62F1D819A3800F6BEEE /* GLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		B9C1F6321D81A38100F6BEEE /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		B9C1F6341D81A6C700F6BEEE /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C1F5F51D8199F300F6BEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F60E1D8199F300F6BEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F6191D8199F300F6BEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9C1F5EF1D8199F300F6BEEE = {
+			isa = PBXGroup;
+			children = (
+				B9C1F5FA1D8199F300F6BEEE /* Study03-OpenGL变化三角形 */,
+				B9C1F6141D8199F300F6BEEE /* Study03-OpenGL变化三角形Tests */,
+				B9C1F61F1D8199F300F6BEEE /* Study03-OpenGL变化三角形UITests */,
+				B9C1F5F91D8199F300F6BEEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9C1F5F91D8199F300F6BEEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F5F81D8199F300F6BEEE /* Study03-OpenGL变化三角形.app */,
+				B9C1F6111D8199F300F6BEEE /* Study03-OpenGL变化三角形Tests.xctest */,
+				B9C1F61C1D8199F300F6BEEE /* Study03-OpenGL变化三角形UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C1F5FA1D8199F300F6BEEE /* Study03-OpenGL变化三角形 */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F6311D81A36B00F6BEEE /* Shader */,
+				B9C1F5FE1D8199F300F6BEEE /* AppDelegate.h */,
+				B9C1F5FF1D8199F300F6BEEE /* AppDelegate.m */,
+				B9C1F62E1D819A3800F6BEEE /* GLViewController.h */,
+				B9C1F62F1D819A3800F6BEEE /* GLViewController.m */,
+				B9C1F6041D8199F300F6BEEE /* Main.storyboard */,
+				B9C1F6071D8199F300F6BEEE /* Assets.xcassets */,
+				B9C1F6091D8199F300F6BEEE /* LaunchScreen.storyboard */,
+				B9C1F60C1D8199F300F6BEEE /* Info.plist */,
+				B9C1F5FB1D8199F300F6BEEE /* Supporting Files */,
+			);
+			path = "Study03-OpenGL变化三角形";
+			sourceTree = "<group>";
+		};
+		B9C1F5FB1D8199F300F6BEEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F5FC1D8199F300F6BEEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9C1F6141D8199F300F6BEEE /* Study03-OpenGL变化三角形Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F6151D8199F300F6BEEE /* Study03_OpenGL_____Tests.m */,
+				B9C1F6171D8199F300F6BEEE /* Info.plist */,
+			);
+			path = "Study03-OpenGL变化三角形Tests";
+			sourceTree = "<group>";
+		};
+		B9C1F61F1D8199F300F6BEEE /* Study03-OpenGL变化三角形UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F6201D8199F300F6BEEE /* Study03_OpenGL_____UITests.m */,
+				B9C1F6221D8199F300F6BEEE /* Info.plist */,
+			);
+			path = "Study03-OpenGL变化三角形UITests";
+			sourceTree = "<group>";
+		};
+		B9C1F6311D81A36B00F6BEEE /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F6321D81A38100F6BEEE /* Shader.vsh */,
+				B9C1F6341D81A6C700F6BEEE /* Shader.fsh */,
+			);
+			name = Shader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9C1F5F71D8199F300F6BEEE /* Study03-OpenGL变化三角形 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C1F6251D8199F300F6BEEE /* Build configuration list for PBXNativeTarget "Study03-OpenGL变化三角形" */;
+			buildPhases = (
+				B9C1F5F41D8199F300F6BEEE /* Sources */,
+				B9C1F5F51D8199F300F6BEEE /* Frameworks */,
+				B9C1F5F61D8199F300F6BEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Study03-OpenGL变化三角形";
+			productName = "Study03-OpenGL变化三角形";
+			productReference = B9C1F5F81D8199F300F6BEEE /* Study03-OpenGL变化三角形.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9C1F6101D8199F300F6BEEE /* Study03-OpenGL变化三角形Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C1F6281D8199F300F6BEEE /* Build configuration list for PBXNativeTarget "Study03-OpenGL变化三角形Tests" */;
+			buildPhases = (
+				B9C1F60D1D8199F300F6BEEE /* Sources */,
+				B9C1F60E1D8199F300F6BEEE /* Frameworks */,
+				B9C1F60F1D8199F300F6BEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C1F6131D8199F300F6BEEE /* PBXTargetDependency */,
+			);
+			name = "Study03-OpenGL变化三角形Tests";
+			productName = "Study03-OpenGL变化三角形Tests";
+			productReference = B9C1F6111D8199F300F6BEEE /* Study03-OpenGL变化三角形Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9C1F61B1D8199F300F6BEEE /* Study03-OpenGL变化三角形UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C1F62B1D8199F300F6BEEE /* Build configuration list for PBXNativeTarget "Study03-OpenGL变化三角形UITests" */;
+			buildPhases = (
+				B9C1F6181D8199F300F6BEEE /* Sources */,
+				B9C1F6191D8199F300F6BEEE /* Frameworks */,
+				B9C1F61A1D8199F300F6BEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C1F61E1D8199F300F6BEEE /* PBXTargetDependency */,
+			);
+			name = "Study03-OpenGL变化三角形UITests";
+			productName = "Study03-OpenGL变化三角形UITests";
+			productReference = B9C1F61C1D8199F300F6BEEE /* Study03-OpenGL变化三角形UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9C1F5F01D8199F300F6BEEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = evenCoder;
+				TargetAttributes = {
+					B9C1F5F71D8199F300F6BEEE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B9C1F6101D8199F300F6BEEE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B9C1F5F71D8199F300F6BEEE;
+					};
+					B9C1F61B1D8199F300F6BEEE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B9C1F5F71D8199F300F6BEEE;
+					};
+				};
+			};
+			buildConfigurationList = B9C1F5F31D8199F300F6BEEE /* Build configuration list for PBXProject "Study03-OpenGL变化三角形" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9C1F5EF1D8199F300F6BEEE;
+			productRefGroup = B9C1F5F91D8199F300F6BEEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C1F5F71D8199F300F6BEEE /* Study03-OpenGL变化三角形 */,
+				B9C1F6101D8199F300F6BEEE /* Study03-OpenGL变化三角形Tests */,
+				B9C1F61B1D8199F300F6BEEE /* Study03-OpenGL变化三角形UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C1F5F61D8199F300F6BEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1F6331D81A38100F6BEEE /* Shader.vsh in Resources */,
+				B9C1F60B1D8199F300F6BEEE /* LaunchScreen.storyboard in Resources */,
+				B9C1F6081D8199F300F6BEEE /* Assets.xcassets in Resources */,
+				B9C1F6061D8199F300F6BEEE /* Main.storyboard in Resources */,
+				B9C1F6351D81A6C700F6BEEE /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F60F1D8199F300F6BEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F61A1D8199F300F6BEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C1F5F41D8199F300F6BEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1F6001D8199F300F6BEEE /* AppDelegate.m in Sources */,
+				B9C1F6301D819A3800F6BEEE /* GLViewController.m in Sources */,
+				B9C1F5FD1D8199F300F6BEEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F60D1D8199F300F6BEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1F6161D8199F300F6BEEE /* Study03_OpenGL_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F6181D8199F300F6BEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1F6211D8199F300F6BEEE /* Study03_OpenGL_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9C1F6131D8199F300F6BEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C1F5F71D8199F300F6BEEE /* Study03-OpenGL变化三角形 */;
+			targetProxy = B9C1F6121D8199F300F6BEEE /* PBXContainerItemProxy */;
+		};
+		B9C1F61E1D8199F300F6BEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C1F5F71D8199F300F6BEEE /* Study03-OpenGL变化三角形 */;
+			targetProxy = B9C1F61D1D8199F300F6BEEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9C1F6041D8199F300F6BEEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C1F6051D8199F300F6BEEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9C1F6091D8199F300F6BEEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C1F60A1D8199F300F6BEEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9C1F6231D8199F300F6BEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9C1F6241D8199F300F6BEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9C1F6261D8199F300F6BEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Study03-OpenGL变化三角形/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study03-OpenGL-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9C1F6271D8199F300F6BEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Study03-OpenGL变化三角形/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study03-OpenGL-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9C1F6291D8199F300F6BEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Study03-OpenGL变化三角形Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study03-OpenGL-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study03-OpenGL变化三角形.app/Study03-OpenGL变化三角形";
+			};
+			name = Debug;
+		};
+		B9C1F62A1D8199F300F6BEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Study03-OpenGL变化三角形Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study03-OpenGL-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study03-OpenGL变化三角形.app/Study03-OpenGL变化三角形";
+			};
+			name = Release;
+		};
+		B9C1F62C1D8199F300F6BEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Study03-OpenGL变化三角形UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study03-OpenGL-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Study03-OpenGL变化三角形";
+			};
+			name = Debug;
+		};
+		B9C1F62D1D8199F300F6BEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Study03-OpenGL变化三角形UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study03-OpenGL-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Study03-OpenGL变化三角形";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9C1F5F31D8199F300F6BEEE /* Build configuration list for PBXProject "Study03-OpenGL变化三角形" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1F6231D8199F300F6BEEE /* Debug */,
+				B9C1F6241D8199F300F6BEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C1F6251D8199F300F6BEEE /* Build configuration list for PBXNativeTarget "Study03-OpenGL变化三角形" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1F6261D8199F300F6BEEE /* Debug */,
+				B9C1F6271D8199F300F6BEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9C1F6281D8199F300F6BEEE /* Build configuration list for PBXNativeTarget "Study03-OpenGL变化三角形Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1F6291D8199F300F6BEEE /* Debug */,
+				B9C1F62A1D8199F300F6BEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9C1F62B1D8199F300F6BEEE /* Build configuration list for PBXNativeTarget "Study03-OpenGL变化三角形UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1F62C1D8199F300F6BEEE /* Debug */,
+				B9C1F62D1D8199F300F6BEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9C1F5F01D8199F300F6BEEE /* Project object */;
+}

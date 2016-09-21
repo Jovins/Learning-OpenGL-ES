@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9C1F6441D84406A00F6BEEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F6431D84406A00F6BEEE /* main.m */; };
+		B9C1F6471D84406A00F6BEEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F6461D84406A00F6BEEE /* AppDelegate.m */; };
+		B9C1F64D1D84406A00F6BEEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C1F64B1D84406A00F6BEEE /* Main.storyboard */; };
+		B9C1F64F1D84406A00F6BEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C1F64E1D84406A00F6BEEE /* Assets.xcassets */; };
+		B9C1F6521D84406A00F6BEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C1F6501D84406A00F6BEEE /* LaunchScreen.storyboard */; };
+		B9C1F65D1D84406A00F6BEEE /* Study04_OpenGL___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F65C1D84406A00F6BEEE /* Study04_OpenGL___Tests.m */; };
+		B9C1F6681D84406A00F6BEEE /* Study04_OpenGL___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F6671D84406A00F6BEEE /* Study04_OpenGL___UITests.m */; };
+		B9C1F6791D8447A000F6BEEE /* JWPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F6781D8447A000F6BEEE /* JWPlanet.m */; };
+		B9C1F67F1D8465C300F6BEEE /* JWSolarSystemBLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F67E1D8465C300F6BEEE /* JWSolarSystemBLL.m */; };
+		B9C1F6821D846C9300F6BEEE /* JWSolarSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1F6811D846C9300F6BEEE /* JWSolarSystemController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9C1F6591D84406A00F6BEEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C1F6371D84406A00F6BEEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C1F63E1D84406A00F6BEEE;
+			remoteInfo = "Study04-OpenGL太阳系";
+		};
+		B9C1F6641D84406A00F6BEEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C1F6371D84406A00F6BEEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C1F63E1D84406A00F6BEEE;
+			remoteInfo = "Study04-OpenGL太阳系";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9C1F63F1D84406A00F6BEEE /* Study04-OpenGL太阳系.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study04-OpenGL太阳系.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C1F6431D84406A00F6BEEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9C1F6451D84406A00F6BEEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9C1F6461D84406A00F6BEEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9C1F64C1D84406A00F6BEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9C1F64E1D84406A00F6BEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9C1F6511D84406A00F6BEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9C1F6531D84406A00F6BEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C1F6581D84406A00F6BEEE /* Study04-OpenGL太阳系Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study04-OpenGL太阳系Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C1F65C1D84406A00F6BEEE /* Study04_OpenGL___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Study04_OpenGL___Tests.m"; sourceTree = "<group>"; };
+		B9C1F65E1D84406A00F6BEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C1F6631D84406A00F6BEEE /* Study04-OpenGL太阳系UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study04-OpenGL太阳系UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C1F6671D84406A00F6BEEE /* Study04_OpenGL___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Study04_OpenGL___UITests.m"; sourceTree = "<group>"; };
+		B9C1F6691D84406A00F6BEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C1F6761D8440BD00F6BEEE /* SolarSystemHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolarSystemHeader.h; sourceTree = "<group>"; };
+		B9C1F6771D8447A000F6BEEE /* JWPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPlanet.h; sourceTree = "<group>"; };
+		B9C1F6781D8447A000F6BEEE /* JWPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPlanet.m; sourceTree = "<group>"; };
+		B9C1F67D1D8465C300F6BEEE /* JWSolarSystemBLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWSolarSystemBLL.h; sourceTree = "<group>"; };
+		B9C1F67E1D8465C300F6BEEE /* JWSolarSystemBLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWSolarSystemBLL.m; sourceTree = "<group>"; };
+		B9C1F6801D846C9300F6BEEE /* JWSolarSystemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWSolarSystemController.h; sourceTree = "<group>"; };
+		B9C1F6811D846C9300F6BEEE /* JWSolarSystemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWSolarSystemController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C1F63C1D84406A00F6BEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F6551D84406A00F6BEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F6601D84406A00F6BEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9C1F6361D84406A00F6BEEE = {
+			isa = PBXGroup;
+			children = (
+				B9C1F6411D84406A00F6BEEE /* Study04-OpenGL太阳系 */,
+				B9C1F65B1D84406A00F6BEEE /* Study04-OpenGL太阳系Tests */,
+				B9C1F6661D84406A00F6BEEE /* Study04-OpenGL太阳系UITests */,
+				B9C1F6401D84406A00F6BEEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9C1F6401D84406A00F6BEEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F63F1D84406A00F6BEEE /* Study04-OpenGL太阳系.app */,
+				B9C1F6581D84406A00F6BEEE /* Study04-OpenGL太阳系Tests.xctest */,
+				B9C1F6631D84406A00F6BEEE /* Study04-OpenGL太阳系UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C1F6411D84406A00F6BEEE /* Study04-OpenGL太阳系 */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F6751D84407200F6BEEE /* BLL */,
+				B9C1F6451D84406A00F6BEEE /* AppDelegate.h */,
+				B9C1F6461D84406A00F6BEEE /* AppDelegate.m */,
+				B9C1F64B1D84406A00F6BEEE /* Main.storyboard */,
+				B9C1F64E1D84406A00F6BEEE /* Assets.xcassets */,
+				B9C1F6501D84406A00F6BEEE /* LaunchScreen.storyboard */,
+				B9C1F6531D84406A00F6BEEE /* Info.plist */,
+				B9C1F6421D84406A00F6BEEE /* Supporting Files */,
+			);
+			path = "Study04-OpenGL太阳系";
+			sourceTree = "<group>";
+		};
+		B9C1F6421D84406A00F6BEEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F6431D84406A00F6BEEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9C1F65B1D84406A00F6BEEE /* Study04-OpenGL太阳系Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F65C1D84406A00F6BEEE /* Study04_OpenGL___Tests.m */,
+				B9C1F65E1D84406A00F6BEEE /* Info.plist */,
+			);
+			path = "Study04-OpenGL太阳系Tests";
+			sourceTree = "<group>";
+		};
+		B9C1F6661D84406A00F6BEEE /* Study04-OpenGL太阳系UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F6671D84406A00F6BEEE /* Study04_OpenGL___UITests.m */,
+				B9C1F6691D84406A00F6BEEE /* Info.plist */,
+			);
+			path = "Study04-OpenGL太阳系UITests";
+			sourceTree = "<group>";
+		};
+		B9C1F6751D84407200F6BEEE /* BLL */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1F6761D8440BD00F6BEEE /* SolarSystemHeader.h */,
+				B9C1F6771D8447A000F6BEEE /* JWPlanet.h */,
+				B9C1F6781D8447A000F6BEEE /* JWPlanet.m */,
+				B9C1F67D1D8465C300F6BEEE /* JWSolarSystemBLL.h */,
+				B9C1F67E1D8465C300F6BEEE /* JWSolarSystemBLL.m */,
+				B9C1F6801D846C9300F6BEEE /* JWSolarSystemController.h */,
+				B9C1F6811D846C9300F6BEEE /* JWSolarSystemController.m */,
+			);
+			name = BLL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9C1F63E1D84406A00F6BEEE /* Study04-OpenGL太阳系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C1F66C1D84406A00F6BEEE /* Build configuration list for PBXNativeTarget "Study04-OpenGL太阳系" */;
+			buildPhases = (
+				B9C1F63B1D84406A00F6BEEE /* Sources */,
+				B9C1F63C1D84406A00F6BEEE /* Frameworks */,
+				B9C1F63D1D84406A00F6BEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Study04-OpenGL太阳系";
+			productName = "Study04-OpenGL太阳系";
+			productReference = B9C1F63F1D84406A00F6BEEE /* Study04-OpenGL太阳系.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9C1F6571D84406A00F6BEEE /* Study04-OpenGL太阳系Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C1F66F1D84406A00F6BEEE /* Build configuration list for PBXNativeTarget "Study04-OpenGL太阳系Tests" */;
+			buildPhases = (
+				B9C1F6541D84406A00F6BEEE /* Sources */,
+				B9C1F6551D84406A00F6BEEE /* Frameworks */,
+				B9C1F6561D84406A00F6BEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C1F65A1D84406A00F6BEEE /* PBXTargetDependency */,
+			);
+			name = "Study04-OpenGL太阳系Tests";
+			productName = "Study04-OpenGL太阳系Tests";
+			productReference = B9C1F6581D84406A00F6BEEE /* Study04-OpenGL太阳系Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9C1F6621D84406A00F6BEEE /* Study04-OpenGL太阳系UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C1F6721D84406A00F6BEEE /* Build configuration list for PBXNativeTarget "Study04-OpenGL太阳系UITests" */;
+			buildPhases = (
+				B9C1F65F1D84406A00F6BEEE /* Sources */,
+				B9C1F6601D84406A00F6BEEE /* Frameworks */,
+				B9C1F6611D84406A00F6BEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C1F6651D84406A00F6BEEE /* PBXTargetDependency */,
+			);
+			name = "Study04-OpenGL太阳系UITests";
+			productName = "Study04-OpenGL太阳系UITests";
+			productReference = B9C1F6631D84406A00F6BEEE /* Study04-OpenGL太阳系UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9C1F6371D84406A00F6BEEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = evenCoder;
+				TargetAttributes = {
+					B9C1F63E1D84406A00F6BEEE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B9C1F6571D84406A00F6BEEE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B9C1F63E1D84406A00F6BEEE;
+					};
+					B9C1F6621D84406A00F6BEEE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B9C1F63E1D84406A00F6BEEE;
+					};
+				};
+			};
+			buildConfigurationList = B9C1F63A1D84406A00F6BEEE /* Build configuration list for PBXProject "Study04-OpenGL太阳系" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9C1F6361D84406A00F6BEEE;
+			productRefGroup = B9C1F6401D84406A00F6BEEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C1F63E1D84406A00F6BEEE /* Study04-OpenGL太阳系 */,
+				B9C1F6571D84406A00F6BEEE /* Study04-OpenGL太阳系Tests */,
+				B9C1F6621D84406A00F6BEEE /* Study04-OpenGL太阳系UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C1F63D1D84406A00F6BEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1F6521D84406A00F6BEEE /* LaunchScreen.storyboard in Resources */,
+				B9C1F64F1D84406A00F6BEEE /* Assets.xcassets in Resources */,
+				B9C1F64D1D84406A00F6BEEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F6561D84406A00F6BEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F6611D84406A00F6BEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C1F63B1D84406A00F6BEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1F6471D84406A00F6BEEE /* AppDelegate.m in Sources */,
+				B9C1F67F1D8465C300F6BEEE /* JWSolarSystemBLL.m in Sources */,
+				B9C1F6821D846C9300F6BEEE /* JWSolarSystemController.m in Sources */,
+				B9C1F6791D8447A000F6BEEE /* JWPlanet.m in Sources */,
+				B9C1F6441D84406A00F6BEEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F6541D84406A00F6BEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1F65D1D84406A00F6BEEE /* Study04_OpenGL___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1F65F1D84406A00F6BEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1F6681D84406A00F6BEEE /* Study04_OpenGL___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9C1F65A1D84406A00F6BEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C1F63E1D84406A00F6BEEE /* Study04-OpenGL太阳系 */;
+			targetProxy = B9C1F6591D84406A00F6BEEE /* PBXContainerItemProxy */;
+		};
+		B9C1F6651D84406A00F6BEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C1F63E1D84406A00F6BEEE /* Study04-OpenGL太阳系 */;
+			targetProxy = B9C1F6641D84406A00F6BEEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9C1F64B1D84406A00F6BEEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C1F64C1D84406A00F6BEEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9C1F6501D84406A00F6BEEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C1F6511D84406A00F6BEEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9C1F66A1D84406A00F6BEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9C1F66B1D84406A00F6BEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9C1F66D1D84406A00F6BEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Study04-OpenGL太阳系/SolarSystemHeader.h";
+				INFOPLIST_FILE = "Study04-OpenGL太阳系/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study04-OpenGL---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9C1F66E1D84406A00F6BEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Study04-OpenGL太阳系/SolarSystemHeader.h";
+				INFOPLIST_FILE = "Study04-OpenGL太阳系/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study04-OpenGL---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9C1F6701D84406A00F6BEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Study04-OpenGL太阳系Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study04-OpenGL---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study04-OpenGL太阳系.app/Study04-OpenGL太阳系";
+			};
+			name = Debug;
+		};
+		B9C1F6711D84406A00F6BEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Study04-OpenGL太阳系Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study04-OpenGL---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study04-OpenGL太阳系.app/Study04-OpenGL太阳系";
+			};
+			name = Release;
+		};
+		B9C1F6731D84406A00F6BEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Study04-OpenGL太阳系UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study04-OpenGL---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Study04-OpenGL太阳系";
+			};
+			name = Debug;
+		};
+		B9C1F6741D84406A00F6BEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Study04-OpenGL太阳系UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.Study04-OpenGL---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Study04-OpenGL太阳系";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9C1F63A1D84406A00F6BEEE /* Build configuration list for PBXProject "Study04-OpenGL太阳系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1F66A1D84406A00F6BEEE /* Debug */,
+				B9C1F66B1D84406A00F6BEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C1F66C1D84406A00F6BEEE /* Build configuration list for PBXNativeTarget "Study04-OpenGL太阳系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1F66D1D84406A00F6BEEE /* Debug */,
+				B9C1F66E1D84406A00F6BEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9C1F66F1D84406A00F6BEEE /* Build configuration list for PBXNativeTarget "Study04-OpenGL太阳系Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1F6701D84406A00F6BEEE /* Debug */,
+				B9C1F6711D84406A00F6BEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9C1F6721D84406A00F6BEEE /* Build configuration list for PBXNativeTarget "Study04-OpenGL太阳系UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1F6731D84406A00F6BEEE /* Debug */,
+				B9C1F6741D84406A00F6BEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9C1F6371D84406A00F6BEEE /* Project object */;
+}
